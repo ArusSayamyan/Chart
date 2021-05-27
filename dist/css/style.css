@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+  * body {
+    background-color: #f2f2f2; }
+  * .main_container-carts {
+    display: flex;
+    justify-content: space-around; }
+    * .main_container-carts .cart1,
+    * .main_container-carts .cart2,
+    * .main_container-carts .cart3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 448px;
+      line-height: 40px;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px; }
+      * .main_container-carts .cart1 .img_content,
+      * .main_container-carts .cart2 .img_content,
+      * .main_container-carts .cart3 .img_content {
+        display: flex;
+        justify-content: space-between; }
+      * .main_container-carts .cart1 h1,
+      * .main_container-carts .cart2 h1,
+      * .main_container-carts .cart3 h1 {
+        font-size: 22px; }
+      * .main_container-carts .cart1 span,
+      * .main_container-carts .cart2 span,
+      * .main_container-carts .cart3 span {
+        font-size: 22px;
+        color: #ff3a29; }
+      * .main_container-carts .cart1 p,
+      * .main_container-carts .cart2 p,
+      * .main_container-carts .cart3 p {
+        line-height: 20px;
+        width: 350px;
+        color: rgba(0, 0, 0, 0.487); }
+      * .main_container-carts .cart1 .title_content,
+      * .main_container-carts .cart2 .title_content,
+      * .main_container-carts .cart3 .title_content {
+        display: flex;
+        justify-content: space-between; }
+      * .main_container-carts .cart1 .img_content,
+      * .main_container-carts .cart2 .img_content,
+      * .main_container-carts .cart3 .img_content {
+        margin-top: 30px; }
+      * .main_container-carts .cart1 .button_container .btn1,
+      * .main_container-carts .cart2 .button_container .btn1,
+      * .main_container-carts .cart3 .button_container .btn1 {
+        background-color: #dad7fe;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 6px; }
+      * .main_container-carts .cart1 .button_container .btn2,
+      * .main_container-carts .cart2 .button_container .btn2,
+      * .main_container-carts .cart3 .button_container .btn2 {
+        background-color: #ffe5d3;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 6px; }
+      * .main_container-carts .cart1 .button_container .btn3,
+      * .main_container-carts .cart2 .button_container .btn3,
+      * .main_container-carts .cart3 .button_container .btn3 {
+        background-color: #e2fbd7;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 6px; }
+      * .main_container-carts .cart1 .button_container .btn4,
+      * .main_container-carts .cart2 .button_container .btn4,
+      * .main_container-carts .cart3 .button_container .btn4 {
+        background-color: #fff5cc;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 6px; }
+      * .main_container-carts .cart1 .button_container .btn5,
+      * .main_container-carts .cart2 .button_container .btn5,
+      * .main_container-carts .cart3 .button_container .btn5 {
+        background-color: #ccf8fe;
+        border: none;
+        padding: 5px 10px;
+        border-radius: 6px; }

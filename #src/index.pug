@@ -1,0 +1,84 @@
+include pug/mixins/mixins.pug
+block variables 
+  - var title = {title1:'Moon Fever', title2:'Space The Final Frontier', title3:'Moon Gazing'}
+doctype html
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+        link(rel="stylesheet", href="css/style.css")
+        title Document
+    body
+      //- ul
+      //-   each val, key in {1: 'one', 2: 'two', 3: 'three'}
+      //-     li(class=key)= val
+      main.main_container  
+        .main_container-carts
+          .cart1
+            .button_container
+              +button("Lost")(class="btn1")
+              +button("designer")(class="btn2")
+              +button("Hobbie")(class="btn3") 
+            if title.title2 
+              .title_content
+                h1.title= title.title1
+                span $200
+              .text
+                p 
+                  |Comets are a big source of meteoroids because of the 
+                  |nature of those long tails. A large amount of dust, ice 
+                  |and other space debris.
+              .img_content 
+                .users
+                  img(src="img/user1.svg", alt="user")
+                  img(src="img/user2.svg", alt="user")
+                  img(src="img/user3.svg", alt="user")
+                  img(src="img/Color.svg", alt="user")
+                .icon 
+                  img(src="img/Group.svg", alt="logo")
+          .cart2
+            .button_container
+              +button("designer")(class="btn4")
+              +button("Hobbie")(class="btn5") 
+            if title.title2
+              .title_content
+                h1.title= title.title2
+                span $200
+              .text
+                p 
+                  Usually the astronomy magazine or site will give you a general time and location to be ready to look when the meteoroids start to fall.
+              .img_content 
+                .users
+                  img(src="img/user1.svg", alt="user")
+                  img(src="img/Color.svg", alt="user")
+                .icon 
+                  img(src="img/Group.svg", alt="logo")
+          .cart3
+            .button_container
+              +button("Lost")(class="btn2")
+              +button("designer")(class="btn3") 
+            if title.title3
+              .title_content
+                h1.title= title.title3
+                span $200
+              .text
+                p 
+                  |Comets are a big source of meteoroids because of the 
+                  |nature of those long tails. A large amount of dust, ice 
+                  |and other space debris.
+              .img_content
+                .users
+                  img(src="img/user1.svg", alt="user")
+                  img(src="img/user2.svg", alt="user")
+                  img(src="img/Color.svg", alt="user")
+                .icon 
+                  img(src="img/Group.svg", alt="logo")
+        canvas#myChart
+
+      script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js")
+      script(src='js/chart.js')
+        
+
+      
+

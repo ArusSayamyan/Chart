@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  body {
+    background-color: #f2f2f2;
+  }
+
+  .main_container-carts {
+    display: flex;
+    justify-content: space-around;
+    .cart1,
+    .cart2,
+    .cart3 {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 448px;
+      line-height: 40px;
+      background-color: #fff;
+      padding: 30px;
+      border-radius: 10px;
+      .img_content {
+        display: flex;
+        justify-content: space-between;
+      }
+      h1 {
+        font-size: 22px;
+      }
+      span {
+        font-size: 22px;
+        color: #ff3a29;
+      }
+      p {
+        line-height: 20px;
+        width: 350px;
+        color: rgba(0, 0, 0, 0.487);
+      }
+      .title_content {
+        display: flex;
+        justify-content: space-between;
+      }
+      .img_content {
+        margin-top: 30px;
+      }
+      .button_container {
+        .btn1 {
+          background-color: #dad7fe;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 6px;
+        }
+        .btn2 {
+          background-color: #ffe5d3;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 6px;
+        }
+        .btn3 {
+          background-color: #e2fbd7;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 6px;
+        }
+        .btn4 {
+          background-color: #fff5cc;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 6px;
+        }
+        .btn5 {
+          background-color: #ccf8fe;
+          border: none;
+          padding: 5px 10px;
+          border-radius: 6px;
+        }
+      }
+    }
+  }
+}
