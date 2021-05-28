@@ -4,7 +4,7 @@ var myChart = new Chart(ctx, {
     data: {
         labels: ["01",	"02",	"03",	"04",	"05",	"06",	"07","08",	"09","10", "11", "12"],
         datasets: [{
-            label: 'Series 1', // Name the series
+            label: 'Restless', // Name the series
             data: [100,	200, 100,200,0,	200,100,200,100,200,100,0,200,100], // Specify the data values array
             fill: false,
             borderColor: '#4339F2', // Add custom color border (Line)
@@ -12,21 +12,21 @@ var myChart = new Chart(ctx, {
             borderWidth: 2 // Specify bar border width
         },
                   {
-            label: 'Series 2', // Name the series
+            label: 'Awake', // Name the series
             data: [200,	0,	200,0,	400,200,300,100,300,0,200,400,200,300], // Specify the data values array
             fill: false,
             borderColor: '#FF3A29', // Add custom color border (Line)
             backgroundColor: '#FF3A29', // Add custom color background (Points and Fill)
             borderWidth: 2 // Specify bar border width
         },
-        //           {
-        //     label: 'Series 3', // Name the series
-        //     data: [300,	200,	300,200,100,	300,100,400,300,400,300,200,300,200], // Specify the data values array
-        //     fill: false,
-        //     borderColor: '#34B53A', // Add custom color border (Line)
-        //     backgroundColor: '#34B53A', // Add custom color background (Points and Fill)
-        //     borderWidth: 1 // Specify bar border width
-        // }
+                  {
+            label: 'Deep', // Name the series
+            data: [300,	200,	300,200,100,	300,100,400,300,400,300,200,300,200], // Specify the data values array
+            fill: false,
+            borderColor: '#34B53A', // Add custom color border (Line)
+            backgroundColor: '#34B53A', // Add custom color background (Points and Fill)
+            borderWidth: 2 // Specify bar border width
+        }
       ]
     },
     // options: {

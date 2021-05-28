@@ -4,9 +4,21 @@
   box-sizing: border-box; }
   * body {
     background-color: #f2f2f2; }
+  * .canvas {
+    width: 100%; }
+    * .canvas #myChart {
+      width: 100% !important;
+      max-height: 500px !important; }
+  * .main_container {
+    width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 90vh; }
   * .main_container-carts {
     display: flex;
-    justify-content: space-around; }
+    justify-content: space-between; }
     * .main_container-carts .cart1,
     * .main_container-carts .cart2,
     * .main_container-carts .cart3 {
@@ -23,6 +35,10 @@
       * .main_container-carts .cart3 .img_content {
         display: flex;
         justify-content: space-between; }
+        * .main_container-carts .cart1 .img_content img,
+        * .main_container-carts .cart2 .img_content img,
+        * .main_container-carts .cart3 .img_content img {
+          margin-left: 6px; }
       * .main_container-carts .cart1 h1,
       * .main_container-carts .cart2 h1,
       * .main_container-carts .cart3 h1 {

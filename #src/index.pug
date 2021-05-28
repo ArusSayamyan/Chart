@@ -23,7 +23,7 @@ html(lang="en")
             if title.title2 
               .title_content
                 h1.title= title.title1
-                span $200
+                span $456
               .text
                 p 
                   |Comets are a big source of meteoroids because of the 
@@ -44,7 +44,7 @@ html(lang="en")
             if title.title2
               .title_content
                 h1.title= title.title2
-                span $200
+                span $87
               .text
                 p 
                   Usually the astronomy magazine or site will give you a general time and location to be ready to look when the meteoroids start to fall.
@@ -74,7 +74,8 @@ html(lang="en")
                   img(src="img/Color.svg", alt="user")
                 .icon 
                   img(src="img/Group.svg", alt="logo")
-        canvas#myChart
+        .canvas
+          canvas#myChart(width='500px')
 
       script(src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.js")
       script(src='js/chart.js')
