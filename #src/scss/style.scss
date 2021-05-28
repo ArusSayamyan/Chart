@@ -5,96 +5,130 @@
   body {
     background-color: #f2f2f2;
   }
-  .canvas {
-    width: 100%;
-  
- #myChart {
-   width: 100% !important;
-   max-height: 500px !important;
 
-   
- }
-}
- .main_container {
-  width: 90%;
-  margin: 20px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  height: 90vh;
- }
-
-  .main_container-carts {
+  .main_container {
+    width: 90%;
+    margin: 20px auto;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    .cart1,
-    .cart2,
-    .cart3 {
+    height: 90vh;
+
+    .main_container-carts {
       display: flex;
-      flex-direction: column;
       justify-content: space-between;
-      width: 448px;
-      line-height: 40px;
-      background-color: #fff;
-      padding: 30px;
-      border-radius: 10px;
-      .img_content {
+      .cart1,
+      .cart2,
+      .cart3 {
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        img {
-          margin-left: 6px;
+        width: 448px;
+        line-height: 40px;
+        background-color: #fff;
+        padding: 30px;
+        border-radius: 10px;
+        .img_content {
+          display: flex;
+          justify-content: space-between;
+          .users,
+          .users2,
+          .users3 {
+            position: relative;
+
+            .plus {
+              position: absolute;
+              left: 154px;
+              top: 13px;
+            }
+            .plus2 {
+              position: absolute;
+              right: 13px;
+              top: 13px;
+            }
+            .plus3 {
+              position: absolute;
+              right: 13px;
+              top: 13px;
+            }
+
+            img {
+              margin-left: 6px;
+            }
+          }
+        }
+        h1 {
+          font-size: 22px;
+        }
+        span {
+          font-size: 22px;
+          color: #ff3a29;
+        }
+        p {
+          line-height: 20px;
+          width: 350px;
+          color: rgba(0, 0, 0, 0.487);
+        }
+        .title_content {
+          display: flex;
+          justify-content: space-between;
+        }
+        .img_content {
+          margin-top: 30px;
+        }
+        .button_container {
+          .btn1 {
+            background-color: #dad7fe;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+          }
+          .btn2 {
+            background-color: #ffe5d3;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+          }
+          .btn3 {
+            background-color: #e2fbd7;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+          }
+          .btn4 {
+            background-color: #fff5cc;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+          }
+          .btn5 {
+            background-color: #ccf8fe;
+            border: none;
+            padding: 5px 10px;
+            border-radius: 6px;
+          }
         }
       }
+    }
+    .title {
+      margin-top: 10px;
       h1 {
         font-size: 22px;
       }
-      span {
-        font-size: 22px;
-        color: #ff3a29;
-      }
+    }
+    .subTitle {
+      margin-top: 6px;
       p {
-        line-height: 20px;
-        width: 350px;
-        color: rgba(0, 0, 0, 0.487);
+        font-size: 14px;
+        color: rgba(0, 0, 0, 0.678);
       }
-      .title_content {
-        display: flex;
-        justify-content: space-between;
-      }
-      .img_content {
-        margin-top: 30px;
-      }
-      .button_container {
-        .btn1 {
-          background-color: #dad7fe;
-          border: none;
-          padding: 5px 10px;
-          border-radius: 6px;
-        }
-        .btn2 {
-          background-color: #ffe5d3;
-          border: none;
-          padding: 5px 10px;
-          border-radius: 6px;
-        }
-        .btn3 {
-          background-color: #e2fbd7;
-          border: none;
-          padding: 5px 10px;
-          border-radius: 6px;
-        }
-        .btn4 {
-          background-color: #fff5cc;
-          border: none;
-          padding: 5px 10px;
-          border-radius: 6px;
-        }
-        .btn5 {
-          background-color: #ccf8fe;
-          border: none;
-          padding: 5px 10px;
-          border-radius: 6px;
-        }
+    }
+    .canvas {
+      width: 100%;
+
+      #myChart {
+        width: 100% !important;
+        max-height: 500px !important;
       }
     }
   }

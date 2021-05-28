@@ -18,7 +18,7 @@ html(lang="en")
           .cart1
             .button_container
               +button("Lost")(class="btn1")
-              +button("designer")(class="btn2")
+              +button("Designer")(class="btn2")
               +button("Hobbie")(class="btn3") 
             if title.title2 
               .title_content
@@ -26,20 +26,19 @@ html(lang="en")
                 span $456
               .text
                 p 
-                  |Comets are a big source of meteoroids because of the 
-                  |nature of those long tails. A large amount of dust, ice 
-                  |and other space debris.
+                  |So what are these strange lights in the sky? Are they aliens invading from Mars? Are the comets coming to start the next ice age?
               .img_content 
                 .users
                   img(src="img/user1.svg", alt="user")
                   img(src="img/user2.svg", alt="user")
                   img(src="img/user3.svg", alt="user")
                   img(src="img/Color.svg", alt="user")
+                  img(src="img/plus.svg", alt="plus" class="plus")
                 .icon 
                   img(src="img/Group.svg", alt="logo")
           .cart2
             .button_container
-              +button("designer")(class="btn4")
+              +button("Designer")(class="btn4")
               +button("Hobbie")(class="btn5") 
             if title.title2
               .title_content
@@ -47,17 +46,18 @@ html(lang="en")
                 span $87
               .text
                 p 
-                  Usually the astronomy magazine or site will give you a general time and location to be ready to look when the meteoroids start to fall.
+                  |Usually the astronomy magazine or site will give you a general time and location to be ready to look when the meteoroids start to fall.
               .img_content 
-                .users
-                  img(src="img/user1.svg", alt="user")
+                .users2
+                  img(src="img/user4.svg", alt="user")
                   img(src="img/Color.svg", alt="user")
+                  img(src="img/plus.svg", alt="plus"  class="plus2")
                 .icon 
                   img(src="img/Group.svg", alt="logo")
           .cart3
             .button_container
               +button("Lost")(class="btn2")
-              +button("designer")(class="btn3") 
+              +button("Designer")(class="btn3") 
             if title.title3
               .title_content
                 h1.title= title.title3
@@ -68,12 +68,17 @@ html(lang="en")
                   |nature of those long tails. A large amount of dust, ice 
                   |and other space debris.
               .img_content
-                .users
-                  img(src="img/user1.svg", alt="user")
-                  img(src="img/user2.svg", alt="user")
+                .users3
+                  img(src="img/user5.svg", alt="user")
+                  img(src="img/user6.svg", alt="user")
                   img(src="img/Color.svg", alt="user")
+                  img(src="img/plus.svg", alt="plus" class="plus3")
                 .icon 
                   img(src="img/Group.svg", alt="logo")
+        .title 
+          h1 Portfolio
+        .subTitle 
+          p king_ernser@sigurd.biz
         .canvas
           canvas#myChart(width='500px')
 
